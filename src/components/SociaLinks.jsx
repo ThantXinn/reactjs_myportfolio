@@ -29,7 +29,7 @@ const SociaLinks = () => {
                     Email<BiLogoGmail/>
                 </>
             ),
-            href: 'https://linkein.com/',
+            href: 'mailto:thantzin626@gmail.com',
         },
     ]
 
