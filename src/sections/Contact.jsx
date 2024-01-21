@@ -29,7 +29,7 @@ const Contact = () => {
                 .then((result) => {
                     console.log(result.text);
                     setFormData({ first_name: "", last_name: "", user_email: "", phone_no: "", message: "" })
-                    window.alert("Thankyou for your message, I will to your message as possible as I can.")
+                    window.alert("Thankyou for your message, I will to response your message as possible as I can.")
                 }, (error) => {
                     console.log(error.text);
                     window.alert("Opps!! Something went wrong.")
