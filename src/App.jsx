@@ -20,7 +20,9 @@ const App = () => {
       <section className="flex">
         <Contact/>
       </section>
-      <SociaLinks/>
+      <section className="max-lg:hidden flex">
+        <SociaLinks/>
+      </section>
     </main>
   )
 }

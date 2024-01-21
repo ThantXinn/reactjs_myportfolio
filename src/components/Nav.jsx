@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 import { SiXing } from "react-icons/si";
 import { close_icon, hambuger_icon } from '../assets/icons';
 import { darklightMode, navLinks } from '../constants';
+import SociaLinks from './SociaLinks';
 
 const Nav = () => {
 
@@ -113,6 +114,9 @@ const Nav = () => {
                             ))}
                         </div>
                   </ul>
+                    <div className={` ${open ? "flex":"hidden" } absolute bottom-[28%] w-full h-[12%]`}>
+                        <SociaLinks/>
+                    </div>
               </div>
           </nav>      
     </header>
