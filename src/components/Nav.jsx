@@ -86,8 +86,8 @@ const Nav = () => {
                       height={25}
                       className={`absolute top-5 right-7 duration-300 ${open? "invert dark:invert-0" : "invert-0 dark:invert "}`}
                       />
-                  <ul
-                      className={`fixed flex flex-col mt-24 gap-16 justify-center items-center ${open ? "w-2/3" : "hidden"}`}>
+                    <ul
+                      className={`fixed flex flex-col mt-24 md:mt-20 gap-16 md:gap-7 justify-center items-center overflow-scroll ${open ? "w-2/3" : "hidden"}`}>
                       {navLinks.map((link,index) => (
                           <li
                               key={index}
@@ -113,8 +113,8 @@ const Nav = () => {
                                 </button>
                             ))}
                         </div>
-                  </ul>
-                    <div className={` ${open ? "flex":"hidden" } absolute bottom-[25%] w-full h-[12%]`}>
+                    </ul>
+                    <div className={` ${open ? "flex":"hidden" } absolute bottom-[25%] md:bottom-7 w-full h-[12%]`}>
                         <SociaLinks/>
                     </div>
               </div>
