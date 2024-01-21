@@ -39,14 +39,12 @@ const Home = () => {
           className={`relative flex justify-center items-center py-16 max-lg:py-5`}>
           <img
             src={hero_icon}
-            width={330}
-            className='aspect-square rounded-full object-cover object-center'  
+            className='aspect-square rounded-full object-cover object-center w-[330px] max-xl:w-[220px]'  
           />
                   
           <img
             src={paint_bg}
-            width={330}
-            className='absolute aspect-square rounded-full object-cover object-center border-[2px]'   
+            className='absolute aspect-square rounded-full object-cover object-center w-[330px] max-xl:w-[220px] border-[2px]'   
           />
         </motion.div>  
       </div> 
