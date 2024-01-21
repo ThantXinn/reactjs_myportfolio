@@ -114,7 +114,7 @@ const Nav = () => {
                             ))}
                         </div>
                   </ul>
-                    <div className={` ${open ? "flex":"hidden" } absolute bottom-[28%] w-full h-[12%]`}>
+                    <div className={` ${open ? "flex":"hidden" } absolute bottom-[25%] w-full h-[12%]`}>
                         <SociaLinks/>
                     </div>
               </div>
