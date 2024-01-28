@@ -56,18 +56,17 @@ const ProjectCard = () => {
                                                 />
                                             </div>  
                                             <div
-                                                className='font-roboto absolute opacity-0 translate-y-1/2 flex flex-col items-center justify-center gap-2 bottom-5 max-lg:bottom-2 px-2  max-lg:text-xs rounded-full bg-transparent group-hover:translate-y-0 group-hover:opacity-100 duration-300 w-52 h-12 max-sm:w-32 max-sm:h-8 group-hover:animate-bounce cursor-pointer'>
+                                                className='font-roboto absolute opacity-0 translate-y-1/2 gap-2 bottom-5 max-lg:bottom-2 px-2 max-lg:text-xs rounded-full bg-transparent group-hover:translate-y-0 group-hover:opacity-100 duration-300 w-52 h-12 max-sm:w-32 max-sm:h-8 group-hover:animate-bounce cursor-pointer'>
                                                 <a href={item.href}
                                                     target='_blank' rel='noreferrer'
-                                                    
                                                     >
-                                                    <div>
+                                                    <div className='flex flex-col items-center gap-1'>
                                                         <h1>{item.name}</h1>
+                                                        <div className='flex items-center gap-1'>
+                                                            Demo<FaLink/>
+                                                        </div>
                                                     </div>
                                                 </a>
-                                                <div className='flex items-center gap-1'>
-                                                    Demo<FaLink/>
-                                                </div>
                                         </div>
                                     </div>   
                                 </div>

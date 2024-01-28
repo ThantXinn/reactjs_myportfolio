@@ -69,7 +69,7 @@ export const projects_creations = {
         subtitle: "My Creations",
         content: [
             {
-                name: "Photography",
+                name: "Photography Page",
                 title:"HTML Only Front-End",
                 imgUrl: photography_page,
                 href: "https://myhtmlcss-photoffee.netlify.app/",
@@ -81,7 +81,7 @@ export const projects_creations = {
                 href: "https://x-amazon-clone-e-commerce.vercel.app/",
             },
             {
-                name: "Nike",
+                name: "Nike Landing Page",
                 title:"React Only Front-End",
                 imgUrl: nike_page,
                 href: "https://react-tailwindcss-nikedemo.netlify.app/",
