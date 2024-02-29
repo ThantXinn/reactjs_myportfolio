@@ -49,15 +49,15 @@ export const skills= {
             },
             {
                 name: "Next JS",
-                knowledge:"Beginner",
+                knowledge:"Intermediate",
                 icon: nextjs_icon,
-                percentage: 42,
+                percentage: 66,
             },
             {
                 name: "Redux",
                 knowledge:"Beginner",
                 icon: redux_icon,
-                percentage:37,
+                percentage:40,
             },
         ]
     }

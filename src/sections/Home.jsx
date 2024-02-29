@@ -28,8 +28,11 @@ const Home = () => {
                 I am a junior front-end developer with a passion for creating beautiful and dynamic web applications. I`ve embarked on an exciting journey, gaining valuable experience though freelance projects.
               </p>    
             </div>
-            <div className='flex items-center mt-12 max-lg:mt-7 mb-10'>
-              <Button btntext={"Download CV"} icon={ `${download_icon}`} backgroundcolor={""} onClick={console.log()} />
+          <div className='flex items-center mt-12 max-lg:mt-7 mb-10'>
+            <a className='hidden' href='src/assets/cv/TZH_CV.pdf' download>
+              <Button btntext={"Download CV"} icon={`${download_icon}`} backgroundcolor={""} onClick={console.log()} />
+            </a>
+            <Button btntext={"Download CV"} icon={ `${download_icon}`} backgroundcolor={""} onClick={console.log()} />
             </div> 
         </motion.div>  
         <motion.div

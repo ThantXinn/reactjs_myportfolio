@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaLink } from "react-icons/fa6";
+import { FaExternalLinkAlt } from "react-icons/fa";
 import { projects_creations } from '../constants';
 
 // import Swiper core and required modules
@@ -62,8 +62,8 @@ const ProjectCard = () => {
                                                     >
                                                     <div className='flex flex-col items-center gap-1'>
                                                         <h1>{item.name}</h1>
-                                                        <div className='flex items-center gap-1'>
-                                                            Demo<FaLink/>
+                                                        <div className='flex items-center justify-center rounded-md gap-1 h-8 w-20 bg-slate-600'>
+                                                            Demo<FaExternalLinkAlt/>
                                                         </div>
                                                     </div>
                                                 </a>
